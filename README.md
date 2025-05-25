@@ -1,8 +1,6 @@
 # GraphQuest - Tarea 3
 
 **Alumno:** Luis Ignacio  
-**Curso:** [Nombre del curso o asignatura, si aplica]  
-**Profesor:** [Nombre del profesor, si aplica]
 
 ---
 
@@ -21,13 +19,13 @@ Todos los archivos deben estar en la **misma carpeta**:
 - `list.h`
 - `graphquest.csv` 
 
-### ✅ Instrucciones para compilar y ejecutar
+###  Instrucciones para compilar y ejecutar
 
 ```bash
 gcc tarea3.c extra.c list.c -o graphquest <-(para compilar)
 ./graphquest  <-(para ejecutar)
 ```
-####2. Opciones que funcionan correctamente y las que no
+###2. Opciones que funcionan correctamente y las que no
 Funcionalidades implementadas y funcionando:
 Carga del laberinto desde archivo CSV.
 
@@ -52,7 +50,7 @@ Victoria si se alcanza la salida (esFinal = 1).
 
 Derrota si el tiempo llega a 0.
 
-####Funcionalidades no implementadas:
+###Funcionalidades no implementadas:
  Guardar/cargar partidas desde archivo.
  Ranking de puntajes.
  Validación de errores avanzada (como entradas inválidas del usuario).
