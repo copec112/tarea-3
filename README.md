@@ -25,7 +25,7 @@ Todos los archivos deben estar en la **misma carpeta**:
 gcc tarea3.c extra.c list.c -o graphquest <-(para compilar)
 ./graphquest  <-(para ejecutar)
 ```
-###2. Opciones que funcionan correctamente y las que no
+##2. Opciones que funcionan correctamente y las que no
 Funcionalidades implementadas y funcionando:
 Carga del laberinto desde archivo CSV.
 
