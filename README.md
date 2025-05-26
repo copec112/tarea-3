@@ -24,8 +24,6 @@ gcc tarea3.c extra.c list.c -o graphquest <-(para compilar)
 Funcionalidades implementadas y funcionando:
 Carga del laberinto desde archivo CSV.
 
-Representación de los escenarios como grafo con conexiones.
-
 Menú principal: cargar laberinto, iniciar partida, salir.
 Menú del juego:
 
@@ -41,14 +39,15 @@ Reiniciar partida.
 
 Salir del juego.
 
-Victoria si se alcanza la salida (esFinal = 1).
-
 Derrota si el tiempo llega a 0.
 
 ###Funcionalidades no implementadas:
  Guardar/cargar partidas desde archivo.
+ 
  Ranking de puntajes.
- Validación de errores avanzada (como entradas inválidas del usuario).
+ 
+ Validación de errores (como entradas inválidas del usuario).
+ 
  algunos prints se ven mal por las tildes
 
 
